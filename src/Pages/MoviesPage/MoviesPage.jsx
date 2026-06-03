@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { searchMovies } from "../../Services/api";
-import MovieList from "../../components/MovieList/MovieList";
+import MovieList from "../../Components/MovieList/MovieList";
 import css from "./MoviesPage.module.css";
 
 const MoviesPage = () => {
