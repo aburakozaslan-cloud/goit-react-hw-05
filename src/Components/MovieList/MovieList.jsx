@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { IMG_URL } from "../../services/api";
+import { IMG_URL } from "../../Services/api";
 import css from "./MovieList.module.css";
 
 const MovieList = ({ movies }) => {
