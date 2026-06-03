@@ -13,7 +13,7 @@ const MoviesPage = () => {
 
   useEffect(() => {
     if (!query) return;
-//     console.log("Arama yapılıyor:", query);
+
     const getMovies = async () => {
       setLoading(true);
       try {
